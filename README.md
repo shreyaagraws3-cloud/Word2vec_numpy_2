@@ -35,3 +35,6 @@ To keep training lightweight, only selected books are used (e.g., Alice in Wonde
 - matplotlib (optional)
  plotting the negative sampling distribution
  optional loss curves
+
+### Note:
+Subsampling helps reduce the impact of extremely frequent words. However, for very small corpora, removing stop‑words can be a simpler and equally effective alternative, Where it eliminates common filler words such as and, of, the, etc.
