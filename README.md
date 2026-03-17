@@ -11,8 +11,7 @@ Implements the loss function from the original Word2Vec paper.
 - Subsampling of frequent words
 - Skip‑gram pair generation
 - Negative sampling distribution
-- SGD training loop
-  
+    
 #### Configurable hyperparameters
 Embedding size, window size, learning rate, negative samples, epochs.
 
